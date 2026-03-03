@@ -60,7 +60,9 @@ body {
 
 .fun {
     color: white;
-    border: 0;
+    /*👉border: 0;👈*/
+    border: var(--gradient);
+    border-radius: 5px;
     cursor: pointer;
     padding: .5em 1.25em;
     background: linear-gradient(90deg,
