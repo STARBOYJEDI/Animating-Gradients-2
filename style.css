@@ -3,9 +3,8 @@
     #00e1ff,
     #00a2ff,
     #0084ff,
-    #0051ff,
-    #0026ff,
-    #3700ff
+    #0077ff,
+    #0059ff
     );
 }
 
@@ -24,7 +23,11 @@ body {
     animation: bg-animation 25s infinite;
 }
 
-
+@keyframes bg-animation {
+    0% {background-position: left;}
+    50% {background-position: right;}
+    100% {background-position: left;}
+}
 
 
 
