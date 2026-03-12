@@ -65,12 +65,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     padding: .5em 1.25em;
-    background: linear-gradient(90deg,
-    #00c2db,
-    #00a2ff,
-    #0084ff,
-    #0077ff,
-    #0059ff);
+    background: var(--gradient);
     background-size: 300%;
     background-position: left;
     transition: background-position 350ms;
